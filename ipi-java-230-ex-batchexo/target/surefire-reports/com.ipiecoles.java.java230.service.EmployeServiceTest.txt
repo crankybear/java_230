@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: com.ipiecoles.java.java230.service.EmployeServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 37.564 s <<< FAILURE! - in com.ipiecoles.java.java230.service.EmployeServiceTest
+exo303testNombreEmploye(com.ipiecoles.java.java230.service.EmployeServiceTest)  Time elapsed: 3.096 s  <<< ERROR!
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo303testNombreEmploye(EmployeServiceTest.java:57)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo303testNombreEmploye(EmployeServiceTest.java:57)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo303testNombreEmploye(EmployeServiceTest.java:57)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo303testNombreEmploye(EmployeServiceTest.java:57)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo303testNombreEmploye(EmployeServiceTest.java:57)
+
+exo302testFindById(com.ipiecoles.java.java230.service.EmployeServiceTest)  Time elapsed: 3.04 s  <<< ERROR!
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo302testFindById(EmployeServiceTest.java:44)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo302testFindById(EmployeServiceTest.java:44)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo302testFindById(EmployeServiceTest.java:44)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo302testFindById(EmployeServiceTest.java:44)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo302testFindById(EmployeServiceTest.java:44)
+
+exo305testDeleteEmploye(com.ipiecoles.java.java230.service.EmployeServiceTest)  Time elapsed: 3.053 s  <<< ERROR!
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo305testDeleteEmploye(EmployeServiceTest.java:85)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo305testDeleteEmploye(EmployeServiceTest.java:85)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo305testDeleteEmploye(EmployeServiceTest.java:85)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo305testDeleteEmploye(EmployeServiceTest.java:85)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo305testDeleteEmploye(EmployeServiceTest.java:85)
+
+exo304testcreerEmploye(com.ipiecoles.java.java230.service.EmployeServiceTest)  Time elapsed: 3.021 s  <<< ERROR!
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo304testcreerEmploye(EmployeServiceTest.java:71)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo304testcreerEmploye(EmployeServiceTest.java:71)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo304testcreerEmploye(EmployeServiceTest.java:71)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo304testcreerEmploye(EmployeServiceTest.java:71)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.ipiecoles.java.java230.service.EmployeServiceTest.exo304testcreerEmploye(EmployeServiceTest.java:71)
+
