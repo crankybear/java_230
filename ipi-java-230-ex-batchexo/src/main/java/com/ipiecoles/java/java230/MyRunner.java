@@ -144,17 +144,10 @@ public class MyRunner implements CommandLineRunner {
         if(ligneEmploye[0].matches("^[T]{1}.*") && !ligneEmploye[6].matches(REGEX_MATRICULE_MANAGER)){
                 throw new BatchException("La chaîne " + ligneEmploye[6] + " ne respecte pas la regex " + REGEX_MATRICULE_MANAGER);
         }
-/*
-        if(ligneEmploye[0].matches("^[T]{1}.*")){
-            Employe managerDuTechnicien = employeRepository.findByMatricule(ligneEmploye[6]);
-            if() {
-                throw new BatchException("Le manager de matricule " + ligneEmploye[6] + " n'a pas été trouvé dans " +
-                        "le fichier ou la base de données ");
-            }
-        }
 
- */
+        
         boolean managerExiste=false;
+
         if (ligneEmploye[0].charAt(0)=='T') {
             if(!ligneEmploye[6].matches(REGEX_MATRICULE_MANAGER))
                 throw new BatchException("la chaîne "+ligneEmploye[6]+" ne respecte pas l'expression régulière "+REGEX_MATRICULE_MANAGER);
